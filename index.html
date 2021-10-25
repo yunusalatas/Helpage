@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İBB</title>
+    <link rel="stylesheet" type="text/css" href="app.css" media="screen"/>
+</head>
+
+<body onload="handleLoad()">
+    <div class="header">
+        <h3 class="header-text ">En Çok Sorulan Sorular</h3>
+        <div class="badges">
+            <div onclick="handleClick(this.id)" id="puan"><span class="badge">Puan</span></div>
+            <div onclick="handleClick(this.id)" id="seviyeler"><span class="badge" >Seviyeler</span></div>
+            <div onclick="handleClick(this.id)" id="market"><span class="badge">Market</span></div>
+            <div onclick="handleClick(this.id)" id="rozet"><span class="badge">Rozet</span></div>
+            <div onclick="handleClick(this.id)" id="profil"><span class="badge">Profil</span></div>
+            <div onclick="handleClick(this.id)" id="konum"><span class="badge">Konum</span></div>
+            <div onclick="handleClick(this.id)" id="gorevler"><span class="badge">Görevler</span></div>
+            <div onclick="handleClick(this.id)" id="rotalar"><span class="badge">Rotalar</span></div>
+            <div onclick="handleClick(this.id)" id="istatistikler"><span class="badge">İstatistikler</span></div>
+        </div>
+    </div>
+    <div class="content">
+        <h3 class="content-text" id="header"></h3>
+        <div class="questions" id="detail">
+    
+        </div>
+    </div>
+</body>
+
+<script src="content.js"></script>
+<script src="index.js"></script>
+</html>
